@@ -76,21 +76,10 @@ p {
     font-family: alvarez_fonts;
 }
 
-.imagentienda {
-    display: grid;
-    grid-template-columns: auto auto ;
-    justify-content: center;
-    gap: 20px;
-    background-color: darkred;
-    padding: 50px;
-    border-radius: 30%;
-    box-shadow: 16px 17px 26px 1px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 16px 17px 26px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 16px 17px 26px 1px rgba(0, 0, 0, 0.75);
-}
+
 
 .imagentienda img {
-    width: 70%;
+    width: 80%;
     border-radius: 20%;
     box-shadow: 16px 17px 26px 1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 16px 17px 26px 1px rgba(0, 0, 0, 0.75);
@@ -98,7 +87,7 @@ p {
 }
 .imagentienda img:hover {
     transition: all 2s;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 
@@ -138,7 +127,7 @@ p {
     ;
 }
 
-.container {
+.container-g {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -312,7 +301,7 @@ p {
     -moz-box-shadow: 16px 17px 26px 1px rgba(0, 0, 0, 0.75);
 }
 
-.container li:hover {
+.container-g li:hover {
     transition: all 1s;
     background-color: maroon;
     padding: 10px;
@@ -320,7 +309,7 @@ p {
     transform: scale(2);
 }
 
-.container li:active {
+.container-g li:active {
     background-color: rgb(47, 1, 1);
 }
 

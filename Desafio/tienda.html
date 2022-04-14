@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4597c21c68.js" crossorigin="anonymous"></script>
     <title>Tienda</title>
@@ -13,7 +15,7 @@
 <body>
     <header class="tienda-contenedor">
         <nav class="tienda-nav">
-            <ul class="container">
+            <ul class="container-g">
                 <li>
                     <a href="index.html">inicio</a>
                 </li>
@@ -47,29 +49,72 @@
             </section>
         </div>
         <div class="tienda-productos">
-        <p>imagenes de los productos a la venta:</p>
-        <section class="imagentienda">
-            <img src="imagenes/pore refining.jpg" alt="Tóner de refinación de poros Neutrogena con hamamelis"> 
-            <img src="imagenes/hydro boost.jpg" alt="Neutrogena Hydro Boost Gel limpiador suave"> 
-            <img src="imagenes/mascara-de-aveeno.jpg" alt="Máscara facial de avena Aveeno con extracto de semilla de calabaza calmante"> 
-            <img src="imagenes/loreal vitamin C.jpg" alt="L'Oréal Paris Derm Intensives Vitamin C Serum"> 
-        </section>
-    </div>
+            <p>imagenes de los productos a la venta:</p>
+            <section class="imagentienda">
+
+                <!--boostrap -->
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 50%;">
+                                <img src="imagenes/pore refining.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Tóner de refinación de poros</h5>
+                                    <p class="card-text text-dark">Diseñado para todo tipo de piel, este tónico refinador limpia sin irritación ni resequedad excesiva.</p>
+                                    <a href="#" class="btn btn-primary">$ 949,00</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 50%;">
+                                <img src="imagenes/hydro boost.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Neutrogena Hydro Boost Gel</h5>
+                                    <p class="card-text text-dark">combina la hidratación intensa durante 48 horas con el exclusivo gel refrescante.</p>
+                                    <a href="#" class="btn btn-primary">$
+                                        1.053</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 50%;">
+                                <img src="imagenes/mascara-de-aveeno.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Máscara facial de avena Aveeno</h5>
+                                    <p class="card-text text-dark">deal para ser usado en la higiene diaria de pieles normales, mixtas, secas.</p>
+                                    <a href="#" class="btn btn-primary">$
+                                        1.376</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 50%;">
+                                <img src="imagenes/loreal vitamin C.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">L'Oréal Paris Derm</h5>
+                                    <p class="card-text text-dark">Restaura la firmeza e ilumina la piel sensible.</p>
+                                    <a href="#" class="btn btn-primary">$
+                                        2.987
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </header>
     <div class="tienda-footer">
-    <footer class="redes">
-        <div class="logosgrn">
-            <img src="imagenes/logo wsp.jpg" alt="logo WhatsApp" class="logowsp">
-            <img src="imagenes/logo ig.jpg" alt="logo instagram" class="logoig">
-        </div>
-        <nav>
-            <ul class="texto3">
-                <li>whatsApp: 3512357304</li>
-                <li><a href="https://instagram.com/marielaalejandraalvare?utm_medium=copy_link">Instagram</a></li>
-            </ul>
-        </nav>
-    </footer>
-</div>
+        <footer class="redes">
+            <div class="logosgrn">
+                <img src="imagenes/logo wsp.jpg" alt="logo WhatsApp" class="logowsp">
+                <img src="imagenes/logo ig.jpg" alt="logo instagram" class="logoig">
+            </div>
+            <nav>
+                <ul class="texto3">
+                    <li>whatsApp: 3512357304</li>
+                    <li><a href="https://instagram.com/marielaalejandraalvare?utm_medium=copy_link">Instagram</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 
 
 
@@ -83,7 +128,12 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
 
 </body>
 
